@@ -1,6 +1,7 @@
 package fr.vocaltech.algorithms;
 
 public class DivideAndConquer {
+    private DivideAndConquer(){}
     public static int findMax(int[] a, int lo, int hi) {
         // stop condition
         if (lo == hi) return a[lo];
